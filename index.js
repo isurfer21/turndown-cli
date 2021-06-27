@@ -13,7 +13,7 @@ function serialize(list) {
     return output.join('    ');
 }
 
-const appVersion = '1.0.1';
+const appVersion = '1.0.2';
 const appCreationYear = 2021;
 
 var currentYear = (new Date()).getFullYear();
@@ -184,7 +184,7 @@ Licensed under MIT License
                         return;
                     }
                     console.log(`Saved at path
-  Relative: ${path.relative(__dirname, targetPath)}
+  Relative: ${path.relative(process.cwd(), targetPath)}
   Absolute: ${targetPath}`);
                 })
             }
