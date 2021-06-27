@@ -13,7 +13,7 @@ function serialize(list) {
     return output.join('    ');
 }
 
-const appVersion = '1.0.0';
+const appVersion = '1.0.1';
 const appCreationYear = 2021;
 
 var currentYear = (new Date()).getFullYear();
