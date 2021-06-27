@@ -37,9 +37,9 @@ var argv = Minimist(process.argv.slice(2));
 if (argv.h || argv.help) {
     console.log(`
 Usages:
-  td (-h|-v)
-  td <source> (<target>)
-  td (<option>=<choice>) <source> (<target>)
+  turndown-cli (-h|-v)
+  turndown-cli <source> (<target>)
+  turndown-cli (<option>=<choice>) <source> (<target>)
 
 Parameters:
   source    HTML source filepath
@@ -72,14 +72,14 @@ Options:
 Note that the first choice is default for each options.
 
 Examples:
-  td -h
-  td sample.html
-  td sample.html sample.md
-  td -t=2 -r=3 -c=2 -f=1 -s=2 sample.html
+  turndown-cli -h
+  turndown-cli sample.html
+  turndown-cli sample.html sample.md
+  turndown-cli -t=2 -r=3 -c=2 -f=1 -s=2 sample.html
     `);
 } else if (argv.v || argv.version) {
     console.log(`
-td ~ Turndown CLI
+Turndown CLI
 Version ${appVersion}
 Copyright (c) ${copyrightYear} Abhishek Kumar
 Licensed under MIT License

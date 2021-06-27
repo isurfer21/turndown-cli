@@ -8,8 +8,8 @@ It converts the `.html` file into `.md` file. So basically, it is a CLI based HT
 
 You can install it via `npm`, but make sure your system have `node.js` installed prior to that.
 
-```shell
-% npm install td
+```
+% npm install turndown-cli
 
 ```
 
@@ -17,13 +17,13 @@ You can install it via `npm`, but make sure your system have `node.js` installed
 
 The help option shows all the relevant information regarding the usages of the app.
 
-```shell
-% td -h
+```
+% turndown-cli -h
 
 Usages:
-  td (-h|-v)
-  td <source> (<target>)
-  td (<option>=<choice>) <source> (<target>)
+  turndown-cli (-h|-v)
+  turndown-cli <source> (<target>)
+  turndown-cli (<option>=<choice>) <source> (<target>)
 
 Parameters:
   source    HTML source filepath
@@ -56,10 +56,10 @@ Options:
 Note that the first choice is default for each options.
 
 Examples:
-  td -h
-  td sample.html
-  td sample.html sample.md
-  td -t=2 -r=3 -c=2 -f=1 -s=2 sample.html
+  turndown-cli -h
+  turndown-cli sample.html
+  turndown-cli sample.html sample.md
+  turndown-cli -t=2 -r=3 -c=2 -f=1 -s=2 sample.html
 
 
 ```
