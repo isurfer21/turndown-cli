@@ -1,0 +1,24 @@
+{
+  "name": "td",
+  "version": "1.0.0",
+  "description": "A command-line-interface tool for turndown library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/turndown-cli.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/turndown-cli/issues"
+  },
+  "homepage": "https://github.com/isurfer21/turndown-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "turndown": "^7.0.0"
+  }
+}
