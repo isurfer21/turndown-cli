@@ -1,6 +1,6 @@
 {
   "name": "turndown-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command-line-interface tool for turndown library.",
   "main": "index.js",
   "scripts": {

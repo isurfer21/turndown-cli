@@ -13,7 +13,7 @@ function serialize(list) {
     return output.join('    ');
 }
 
-const appVersion = '1.0.2';
+const appVersion = '1.0.3';
 const appCreationYear = 2021;
 
 var currentYear = (new Date()).getFullYear();
@@ -48,6 +48,8 @@ Parameters:
   choice    Any choice out of provided choices
 
 Options:
+  -h --help       Show help contents
+  -v --version    Show version information
   -t --head       Heading style
                   ${serialize(Options.headingStyle)}
   -r --hr         Horizontal rule
